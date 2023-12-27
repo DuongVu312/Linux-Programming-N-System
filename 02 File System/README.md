@@ -10,4 +10,4 @@ In each folder, perform below instructions:
 
 Summary:
 - The O_APPEND open mode will make the file offset to be positioned at the end of the file.
-- If we declare open mode just only O_APPEND the system call write() will return -1. That so we have to declare O_RDWR | O_APPEND.
+- If we declare open mode just only O_APPEND the system call write() will return -1,
