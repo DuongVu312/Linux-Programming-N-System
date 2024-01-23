@@ -1,0 +1,1 @@
+A program allows client communicates with the server via socket using ipv4 stream socket.
