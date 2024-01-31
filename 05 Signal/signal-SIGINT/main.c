@@ -12,7 +12,7 @@ void sig_SIGINT_handler(int num)
 void sig_SIGUSR2_handler(int num)
 {
 	printf("\nIm signal SIGUSR2 handler");
-    printf("\nMy signal ID is %d\n", num);
+	printf("\nMy signal ID is %d\n", num);
 }
 
 void sig_SIGUSR1_handler(int num)
